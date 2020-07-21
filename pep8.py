@@ -15,4 +15,18 @@ class CalculadoraTeste(Calculadora):
 
     @staticmethod
     def incrementa(valor_um):
+        """ help for my function """
         return valor_um + 1
+
+    def incrementadois(valor_um):
+        """
+            help da minha funcao
+            asdgaas
+            asdasdasd
+            ads
+        """
+        return valor_um + 2
+
+
+calc = CalculadoraTeste
+print(help(calc.incrementadois))
