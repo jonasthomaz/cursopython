@@ -52,3 +52,24 @@ print("\n")
 print(f'AND: (True and False): {True and False}')
 print(f'AND: (True and True): {True and True}')
 print(f'AND: (False and False): {False and False}')
+
+
+# LIdando com tipo string
+print("\n\n\n\nLidando com strings")
+# Aspas simples e triplas tambem é tratada como string
+print(f'Meu nome:  {"jonas"}')
+print(f'Meu nome:  {"""jonas"""}')
+
+nome = 'Jonas Thomaz de Faria'
+print(f'Meu nome:  {nome}')
+print(nome.split())
+print(nome.split()[0])
+print(f'Pedaços do meu nome:  {nome[0]}')
+print(f'Pedaços do meu nome:  {nome[0:5]}')
+print(f'Pedaços do meu nome:  {nome[-5]}')
+
+# <string>[<inicio>:<fim>:<extra>]
+print(f'Pedaços do meu nome:  {nome[-5:]}')
+print(f'Nome Invertido:  {nome[::-1]}')
+print(f'Nome em minusculo invertido:  {nome.lower()[::-1]}')
+print(f'Nome em maiusculo invertido:  {nome.upper()[::-1]}')
